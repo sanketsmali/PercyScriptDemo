@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
     mode: 'history',
     page404: (path) => {
       const html = errorTemplate({
-        color: 'yellow',
+        color: 'blue',
         title: 'Error 404 - Page NOT Found!',
         message: `The path '/${path}' does not exist on this site`,
       });
